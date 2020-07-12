@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6FFFA"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/InfomationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/infomation"
+            tools:ignore="MissingConstraints,OnClick" />
+
+        <ImageButton
+            android:id="@+id/InternetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/internet"
+            tools:ignore="MissingConstraints,OnClick" />
+
+        <ImageButton
+            android:id="@+id/CalculatorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/calculator"
+            tools:ignore="MissingConstraints,OnClick" />
+
+        <ImageButton
+            android:id="@+id/HomeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/home"
+            tools:ignore="MissingConstraints,OnClick" />
+
+        <ImageButton
+            android:id="@+id/SETTINGButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/setting"
+            tools:ignore="MissingConstraints,OnClick" />
+    </TableRow>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
